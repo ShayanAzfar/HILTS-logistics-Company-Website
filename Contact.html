@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayan Azfar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-minus-circle' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Service.html">SERVICE</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>    
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class='bx bx-home'></i>
+            <span>
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </span>
+            </div>
+            <div>
+                <i class='bx bx-phone'></i>
+            <span>
+                <h5>+1 0123456789</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </span>
+            </div>
+            <div>
+                <i class='bx bx-envelope'></i>
+            <span>
+                <h5>hilts@hilts.com</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </span>
+            </div>
+        
+</div>
+    <div class="contact-col">
+
+        <form action="form-hndler.php" method="post">
+            <input type="text" name="email" placeholder="Enter Your Name" required>
+            <input type="email" name="subject" placeholder="Enter Email Address" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button  type="submit" class="hero-btn2 red-btn">Send Message</button>
+        </form>
+
+    </div>
+        </div>
+
+    </section>
+
+    
+  <!--------Footer------>
+
+  <section class="footer">
+    <div class="footer-content">
+        <img src="images/hilt-logo2.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates reprehenderit non blanditiis saepe quasi amet debitis, sunt dignissimos pariatur.</p>
+
+        <div class="icons">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+    </div>
+
+    <div class="footer-content">
+        <h4>Lorem</h4>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+    </div>
+
+    <div class="footer-content">
+        <h4>Lorem</h4>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+    </div>
+
+    <div class="footer-content">
+        <h4>Lorem</h4>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+    </div>
+
+    <div class="footer-content">
+        <h4>Lorem</h4>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Ipsum</a></li>
+    </div>
+  </section>
+
+    <!--------- JavaScript For Toggle Menu ------->
+    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+         
+         function showMenu(){
+            navLinks.style.right = "0";
+         }
+         function hideMenu() {
+            navLinks.style.right = "-200px" ;
+         }
+
+         </script>
+
+
+<br>
+</body>
+</html>
